@@ -23,5 +23,8 @@ git push origin master      将分支内容推送到github
 git clone git@github.com:<gihub目录>          将github上的指定内容克隆到本地
 git checkout -b <'名称'>    新建并切换到新分支
 git branch                  查看当前分支
-git branch '名称'           新建分支
+git branch <名称>           新建分支
+git merge <分支名称>        将指定分支合并到当前分支
+git branch -b <分支名称>    删除指定分支
+git log --graph             查看分之合并图
 
