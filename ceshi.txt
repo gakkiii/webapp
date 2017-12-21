@@ -3,3 +3,25 @@ just ceshi
 private     私人的
 
 balabala
+hehehe
+
+
+git add <文件名>            将文件加入到版本库
+git commit -m "<修改说明>"  提交本次修改（形成快照）
+git status                  查看工作区状态
+git diff                    查看修改内容(是工作区和暂存区的对比)
+git diff -- cached          查看修改内容(是暂存区和分支的对比)
+git diff HEAD -- <文件名>   查看修改内容(工作区和分支的对比)
+git log                     查看历史记录
+git log --pretty=oneline    精简上一条的记录
+git reflog                  可以查看每次修改的commit的id和修改说明
+git checkout -- file        丢弃工作区的修改（未add）
+git reset HEAD file         将添加到暂存区的修改丢弃（未commit）
+git reset --hard <commit号> 跳转到某次修改
+git reset --hard HEDA~x     跳转到上x次修改
+git push origin master      将分支内容推送到github
+git clone git@github.com:<gihub目录>          将github上的指定内容克隆到本地
+git checkout -b <'名称'>    新建并切换到新分支
+git branch                  查看当前分支
+git branch '名称'           新建分支
+
